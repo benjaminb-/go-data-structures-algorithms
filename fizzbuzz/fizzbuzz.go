@@ -14,6 +14,7 @@ func FizzBuzz(max int) []string {
 
 	for i := 1; i <= max; i++ {
 		// we check first multiple of 3 and 5
+		// this is custom modulo function, we can just use i%15
 		if isMultipleOf(i, 15) {
 			results = append(results, "FizzBuzz")
 		} else if i%3 == 0 {
@@ -28,9 +29,8 @@ func FizzBuzz(max int) []string {
 	return results
 }
 
-// Just a simple module implementation
+// Simple modulo implementation
 func isMultipleOf(i int, j int) bool {
 	div := i / j
 	return (i - (j * div)) == 0
-
 }
