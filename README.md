@@ -11,5 +11,5 @@ go test -v ./...
 ### Run single topic tests
 
 ```
-go test reversestring
+go test -v ./reversestring
 ```
