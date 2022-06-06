@@ -1,6 +1,6 @@
-## Data structure and algorithms with Golang
+## Data structures and algorithms with Golang
 
-This repository is created to improve golang knowledge using common data structures and algorithms combined with some leet code style interview questions.
+This repository is a support to improve my Golang knowledge using common data structures and algorithms combined with some leet code style interview questions.
 
 ### Run all the tests
 
